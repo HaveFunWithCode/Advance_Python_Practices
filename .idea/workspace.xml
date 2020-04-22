@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb77d4d-3350-4a8e-a923-45c046d31230" name="Default Changelist" comment="" />
+    <list default="true" id="7bb77d4d-3350-4a8e-a923-45c046d31230" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/multiprocess-basics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocess-image-processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocess-image-processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocess-pool-executer.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocess-pool-executer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +41,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.multiprocess-pool-executer">
     <configuration name="multiprocess-image-processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Advance_Python_Practices" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -51,9 +64,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="multiprocess-pool-executer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Advance_Python_Practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiprocess-pool-executer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multiprocess-purepython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Advance_Python_Practices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiprocess-purepython.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multiprocess-pool-executer" />
         <item itemvalue="Python.multiprocess-image-processing" />
+        <item itemvalue="Python.multiprocess-purepython" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587493411308</updated>
-      <workItem from="1587493413113" duration="621000" />
+      <workItem from="1587493413113" duration="4025000" />
     </task>
     <servers />
   </component>
@@ -87,24 +146,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1823" height="296" key="GridCell.Tab.0.bottom" timestamp="1587493960157">
+    <state x="748" y="242" key="#xdebugger.evaluate" timestamp="1587528246649">
       <screen x="51" y="24" width="1869" height="1056" />
     </state>
-    <state width="1823" height="296" key="GridCell.Tab.0.bottom/51.24.1869.1056@51.24.1869.1056" timestamp="1587493960157" />
-    <state width="1823" height="296" key="GridCell.Tab.0.center" timestamp="1587493960156">
+    <state x="748" y="242" key="#xdebugger.evaluate/51.24.1869.1056@51.24.1869.1056" timestamp="1587528246649" />
+    <state width="1823" height="396" key="GridCell.Tab.0.bottom" timestamp="1587528506882">
       <screen x="51" y="24" width="1869" height="1056" />
     </state>
-    <state width="1823" height="296" key="GridCell.Tab.0.center/51.24.1869.1056@51.24.1869.1056" timestamp="1587493960156" />
-    <state width="1823" height="296" key="GridCell.Tab.0.left" timestamp="1587493960155">
+    <state width="1823" height="396" key="GridCell.Tab.0.bottom/51.24.1869.1056@51.24.1869.1056" timestamp="1587528506882" />
+    <state width="1823" height="396" key="GridCell.Tab.0.center" timestamp="1587528506881">
       <screen x="51" y="24" width="1869" height="1056" />
     </state>
-    <state width="1823" height="296" key="GridCell.Tab.0.left/51.24.1869.1056@51.24.1869.1056" timestamp="1587493960155" />
-    <state width="1823" height="296" key="GridCell.Tab.0.right" timestamp="1587493960156">
+    <state width="1823" height="396" key="GridCell.Tab.0.center/51.24.1869.1056@51.24.1869.1056" timestamp="1587528506881" />
+    <state width="1823" height="396" key="GridCell.Tab.0.left" timestamp="1587528506880">
       <screen x="51" y="24" width="1869" height="1056" />
     </state>
-    <state width="1823" height="296" key="GridCell.Tab.0.right/51.24.1869.1056@51.24.1869.1056" timestamp="1587493960156" />
+    <state width="1823" height="396" key="GridCell.Tab.0.left/51.24.1869.1056@51.24.1869.1056" timestamp="1587528506880" />
+    <state width="1823" height="396" key="GridCell.Tab.0.right" timestamp="1587528506882">
+      <screen x="51" y="24" width="1869" height="1056" />
+    </state>
+    <state width="1823" height="396" key="GridCell.Tab.0.right/51.24.1869.1056@51.24.1869.1056" timestamp="1587528506882" />
+    <state width="1823" height="365" key="GridCell.Tab.1.bottom" timestamp="1587528249652">
+      <screen x="51" y="24" width="1869" height="1056" />
+    </state>
+    <state width="1823" height="365" key="GridCell.Tab.1.bottom/51.24.1869.1056@51.24.1869.1056" timestamp="1587528249652" />
+    <state width="1823" height="365" key="GridCell.Tab.1.center" timestamp="1587528249652">
+      <screen x="51" y="24" width="1869" height="1056" />
+    </state>
+    <state width="1823" height="365" key="GridCell.Tab.1.center/51.24.1869.1056@51.24.1869.1056" timestamp="1587528249652" />
+    <state width="1823" height="365" key="GridCell.Tab.1.left" timestamp="1587528249651">
+      <screen x="51" y="24" width="1869" height="1056" />
+    </state>
+    <state width="1823" height="365" key="GridCell.Tab.1.left/51.24.1869.1056@51.24.1869.1056" timestamp="1587528249651" />
+    <state width="1823" height="365" key="GridCell.Tab.1.right" timestamp="1587528249652">
+      <screen x="51" y="24" width="1869" height="1056" />
+    </state>
+    <state width="1823" height="365" key="GridCell.Tab.1.right/51.24.1869.1056@51.24.1869.1056" timestamp="1587528249652" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Advance_Python_Practices$multiprocess_image_processing.coverage" NAME="multiprocess-image-processing Coverage Results" MODIFIED="1587493908230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Advance_Python_Practices$multiprocess_purepython.coverage" NAME="multiprocess-purepython Coverage Results" MODIFIED="1587500746217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Advance_Python_Practices$multiprocess_pool_executer.coverage" NAME="multiprocess-pool-executer Coverage Results" MODIFIED="1587528506855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Advance_Python_Practices$multiprocess_image_processing.coverage" NAME="multiprocess-image-processing Coverage Results" MODIFIED="1587528422450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

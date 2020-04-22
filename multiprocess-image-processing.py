@@ -12,7 +12,7 @@ def image_process(image_name, dir_path):
     image = image.filter(ImageFilter.GaussianBlur(15))
     image.thumbnail(size=(50, 50))
     image.save('processed/{}'.format(image_name))
-    return '{} was processed'.format(image_name)
+    return 'in process_id :{}---->{} was processed '.format(os.getpid(), image_name)
 
 
 def image_process_wrapper(p):
@@ -37,7 +37,7 @@ def process_with_multi_thread(_image_names, _dir_path):
 
 def process_synchronous(_image_names, _dir_path):
     for image in _image_names:
-        image_process(image, dir_path)
+        print(image_process(image, dir_path))
 
 
 if __name__ == "__main__":
